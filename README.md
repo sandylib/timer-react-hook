@@ -10,7 +10,7 @@ is a customized component for counting down
 
 import React from 'react';
 import './App.css';
-import useTime, { countUp } from './timer-react-hook';
+import useTime, { countUp } from 'timer-react-hook';
 
 
 function TimeToJump({ expiryTimestamp }) { 
