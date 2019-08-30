@@ -1,33 +1,61 @@
-.App {
+/* Style guide variables */
+:root {
+  --dark: #0d0d0f;
+  --dark-grey: #1e1f20;
+  --dark-grey-two: #2b2c2e;
+  --brown-grey: #939393;
+  --kelley-green: #008542;
+  --azure: #008dff;
+  --sunflower-yellow: #ffdc00;
+  --bright-orange: #ff6d00;
+  --baby-blue: #a6d8ff;
+  --light-rose: #fac9d4;
+  --red: #ff0000;
+  --pine-green: #12472d;
+  --purplish-brown: #524145;
+  --dark-blue-grey: #142c41;
+  --white-12: rgba(255, 255, 255, 0.12);
+  --white: #ffffff;
+  --turquoise-green: #00ee84;
+  --orange-yellow: #ffa500;
+  --burgundy: #530013;
+
+  --font: Tahoma;
+  --XXSmall: 9px;
+  --XSmall: 10px;
+  --small: 11px;
+  --body: 13px;
+  --title: 16px;
+  --headline: 22px;
+}
+
+body {
+  /* This means the overscroll effect when using scroll wheel won't show white */
+  background-color: var(--dark);
+  font-family: var(--font);
+}
+
+.app{
+  width: 80%;
+  margin-right: auto;
+  margin-left:  auto;
+  color: var(--white);
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  text-align: center;
+  height: 80px;
+  box-shadow: inset 0 -1px 0 0 #000000;
+  background-color: var(--dark);
+  color: var(--white);
+  font-size: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.countup{
+  color: var(--red);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.countdown {
+  color: var(--kelley-green);
 }
