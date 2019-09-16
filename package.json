@@ -1,7 +1,7 @@
 {
   "name": "timer-react-hook",
-  "version": "0.1.3",
-  "main": "dist/index.js",
+  "version": "0.1.4",
+  "main": "src/useTime.js",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/sandylib/timer-react-hook.git"
   },
   "keywords": [
     "react",
@@ -27,7 +27,7 @@
     "clock"
   ],
   "author": "sandylib",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sandylib/timer-react-hook/issues"
   },
