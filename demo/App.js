@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css';
-import useTime, { countUp } from './useTime';
+import {useTime, countUp } from '../src/index'
 
 
 function TimeToJump({ expiryTimestamp }) { 
@@ -27,6 +26,7 @@ function TimeToJump({ expiryTimestamp }) {
 
 
 function App() {
+  debugger;
   let t = new Date();
   let oneHour = 60*60;
   let twoDay = oneHour * 24 * 2;

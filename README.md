@@ -6,6 +6,8 @@ is a customized component for counting down
 
 ### Example
 
+![Sample](./demo-tick.png?raw=true "time to jump component")
+
 ```javascript
 
 import React from 'react';
